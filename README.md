@@ -9,7 +9,8 @@ Otvori moju knjigu
 <head> 
 </head>
 <body> 
-<a href="pravila_povezivanje.html">Pravila i povezivanje</a>
+<a href="pravila_povezivanje.html">
+Pravila i povezivanje</a>
 </body>
 </html>
 
