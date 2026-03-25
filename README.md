@@ -16,3 +16,15 @@ Pravila i povezivanje</a>
 </body>
 </html>
 
+<html> 
+<head> 
+</head>
+<body> 
+<h2>
+<a href="uvod_i_pravila.html">
+Uvod i pravila</a>
+</h2>
+</body>
+</html>
+
+
