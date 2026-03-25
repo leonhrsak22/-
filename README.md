@@ -21,7 +21,7 @@ Pravila i povezivanje</a>
 </head>
 <body> 
 <h3>
-<a href="uvod_i_pravila.html">
+<a href="vjezba4/uvod_i_pravila.html">
 Uvod i pravila</a>
 </h3>
 </body>
