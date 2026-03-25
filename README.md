@@ -22,7 +22,7 @@ Pravila i povezivanje</a>
 <body> 
 <h3>
 <a href="vjezba4/uvod_i_liste.html">
-Uvod i pravila</a>
+Uvod i liste</a>
 </h3>
 </body>
 </html>
