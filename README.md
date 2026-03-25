@@ -10,7 +10,7 @@ Otvori moju knjigu
 </head>
 <body> 
 <h3>
-<a href="pravila_povezivanje.html">
+<a href="vjezba3/pravila_povezivanje.html">
 Pravila i povezivanje</a>
 </h3>
 </body>
