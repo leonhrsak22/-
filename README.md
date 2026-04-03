@@ -9,10 +9,10 @@ Otvori moju knjigu
 <head> 
 </head>
 <body> 
-<h3>
+<h5>
 <a href="vjezba3/pravila_povezivanje.html">
 Pravila i povezivanje</a>
-</h3>
+</h5>
 </body>
 </html>
 
@@ -20,11 +20,21 @@ Pravila i povezivanje</a>
 <head> 
 </head>
 <body> 
-<h3>
+<h5>
 <a href="vjezba4/uvod_i_liste.html">
 Uvod i liste</a>
-</h3>
+</h5>
 </body>
 </html>
 
+<html> 
+<head> 
+</head>
+<body> 
+<h5>
+<a href="vjezba5/forme.html">
+Forme</a>
+</h5>
+</body>
+</html>
 
