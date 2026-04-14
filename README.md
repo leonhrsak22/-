@@ -44,7 +44,7 @@ Forme</a>
 <body> 
 <h5>
 <a href="vjezba6/div_i_img.html">
-Forme</a>
+DIV i IMG</a>
 </h5>
 </body>
 </html>
