@@ -48,3 +48,14 @@ DIV i IMG</a>
 </h5>
 </body>
 </html>
+
+<html> 
+<head> 
+</head>
+<body> 
+<h5>
+<a href="vjezba7/javascript.html">
+JavaScript</a>
+</h5>
+</body>
+</html>
