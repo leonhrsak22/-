@@ -1,1 +1,36 @@
 
+<html>
+<head>
+<title>Kviz</title>
+<script language="javascript">
+function KvizRezultat()
+{
+var tocno=0;
+if (window.document.forma.pitanje1.checked==false){tocno=tocno+1;}
+else {window.document.forma.pitanje1.checked=false;}
+if (window.document.forma.pitanje2.checked==true){tocno=tocno+1;}
+else {window.document.forma.pitanje2.checked=true;}
+if (window.document.forma.pitanje3.checked==true){tocno=tocno+1;}
+else {window.document.forma.pitanje3.checked=true;}
+if (window.document.forma.pitanje4.checked==false){tocno=tocno+1;}
+else {window.document.forma.pitanje4.checked=false;}
+alert("Odovorili ste tocno na "+tocno+". Pogledaj rezultate.");
+}
+</script>
+</head>
+
+<body>
+<h2>Odgovori na pitajna:</h2>
+<form name="forma">
+<input type="checkbox" name="pitanje1">
+11*11=111<br>
+<input type="checkbox" name="pitanje2">
+12*12=144<br>
+<input type="checkbox" name="pitanje3">
+22*22=484<br>
+<input type="checkbox" name="pitanje4">
+16*16=246<br>
+<input type="button" value="Rezultat" onclick="KvizRezultat();">
+</form>
+</body>
+</html>
