@@ -1,1 +1,39 @@
+<html>
+<head>
+<title>JavaScript i HTML form: citirajne iz tekst polja, JavaScript funkcija, jednostavi kalkulator</title>
+<script language="javascript">
+function ZbrojiPolja()
+{
+var znamenka1=parseFloat(window.document.forma.polje1.value);
+var znamenka2=parseFloat(window.document.forma.polje2.value);
+var zbroj=znamenka1+znamenka2;
+window.document.forma.rezultat.value=zbroj;
+}
+function PomnoziPolja()
+{
+var znamenka1=parseFloat(window.document.forma.polje1.value);
+var znamenka2=parseFloat(window.document.forma.polje2.value);
+var mnozenje=znamenka1*znamenka2;
+window.document.forma.rezultat.value=mnozenje;
+}
+function PodijeliPolja()
+{
+var znamenka1=parseFloat(window.document.forma.polje1.value);
+var znamenka2=parseFloat(window.document.forma.polje2.value);
+var dijeljenje=znamenka1/znamenka2;
+window.document.forma.rezultat.value=dijeljenje;
+}
+</script>
+</head>
 
+<body>
+<form name="forma"> 
+Znamenka 1:<input type="text" name="polje1"><br>
+Znamenka 2:<input type="text" name="polje2"><br>
+Rezultat:<input type="text" name="rezultat"><br>
+<a href="#" onclick="ZbrojiPolja();">Zbroji ih</a><br>
+<a href="#" onclick="PomnoziPolja();">Pomnozi ih</a><br>
+<a href="#" onclick="PodijeliPolja();">Podijeli ih</a>
+</form>
+</body>
+</html>
