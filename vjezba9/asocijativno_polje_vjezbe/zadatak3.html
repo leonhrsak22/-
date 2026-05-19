@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>Asocijativno polje, Primjer: Promjena boje</title>
+<script language="javascript">
+var asoboje=new Array();
+asoboje["Marko"]="red";
+asoboje["Ana"]="blue";
+asoboje["Ivan"]="yellow";
+asoboje["Petra"]="green";
+asoboje["Luka"]="purple";
+asoboje["Martina"]="silver";
+asoboje["Nikola"]="gray";
+
+function promboje(paleta,ulaz)
+{
+var boja=paleta[ulaz];
+window.document.bgColor=boja;
+}
+</script>
+</head>
+
+<body>
+<form name="forma">
+<select onchange="promboje(asoboje, this.options[this.selectedIndex].value);">
+<option value="Marko">Marko
+<option value="Ana">Ana
+<option value="Ivan">Ivan
+<option value="Petra">Petra
+<option value="Luka">Luka
+<option value="Martina">Martina
+<option value="Nikola">Nikola
+</select>
+</form>
+</body>
+</html>
